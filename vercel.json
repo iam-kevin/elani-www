@@ -2,8 +2,68 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "rewrites": [
     {
-      "source": "/(.*)?",
-      "destination": "https://4v3qcnh9xcmr6upd.public.blob.vercel-storage.com/elani-catalogue.pdf"
+      "source": "/catalogue(.*)?",
+      "destination": "https://4v3qcnh9xcmr6upd.public.blob.vercel-storage.com/elani-catalogue.pdf",
+      "statusCode": 307
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "og:title",
+          "value": "Elani - Premium Products & Services"
+        },
+        {
+          "key": "og:description",
+          "value": "Discover our premium catalogue of products and services. Quality solutions tailored for your needs."
+        },
+        {
+          "key": "og:type",
+          "value": "website"
+        },
+        {
+          "key": "og:url",
+          "value": "https://elani.tz"
+        },
+        {
+          "key": "og:image",
+          "value": "https://elani.tz/assets/og/elani.png"
+        },
+        {
+          "key": "og:image:width",
+          "value": "1200"
+        },
+        {
+          "key": "og:image:height",
+          "value": "630"
+        },
+        {
+          "key": "og:image:alt",
+          "value": "Elani - Premium Products & Services"
+        },
+        {
+          "key": "og:site_name",
+          "value": "Elani"
+        },
+        {
+          "key": "twitter:card",
+          "value": "summary_large_image"
+        },
+        {
+          "key": "twitter:title",
+          "value": "Elani - Premium Products & Services"
+        },
+        {
+          "key": "twitter:description",
+          "value": "Discover our premium catalogue of products and services. Quality solutions tailored for your needs."
+        },
+        {
+          "key": "twitter:image",
+          "value": "https://elani.tz/assets/og/elani.png"
+        }
+      ]
     }
   ]
 }
