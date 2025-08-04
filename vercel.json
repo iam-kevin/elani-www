@@ -2,9 +2,8 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "rewrites": [
     {
-      "source": "/catalogue",
-      "destination": "https://4v3qcnh9xcmr6upd.public.blob.vercel-storage.com/elani-catalogue.pdf",
-      "statusCode": 307
+      "source": "/(.*)?",
+      "destination": "https://4v3qcnh9xcmr6upd.public.blob.vercel-storage.com/elani-catalogue.pdf"
     }
   ]
 }
