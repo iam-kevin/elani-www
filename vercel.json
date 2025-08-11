@@ -4,7 +4,7 @@
     {
       "source": "/catalogue",
       "destination": "https://4v3qcnh9xcmr6upd.public.blob.vercel-storage.com/elani-catalogue.pdf",
-      "statusCode": 308
+      "statusCode": 307
     }
   ]
 }
