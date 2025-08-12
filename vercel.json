@@ -4,12 +4,12 @@
     {
       "source": "/catalog",
       "destination": "https://4v3qcnh9xcmr6upd.public.blob.vercel-storage.com/elani-catalog.pdf",
-      "statusCode": 307
+      "statusCode": 308
     },
     {
       "source": "/catalogue",
       "destination": "https://4v3qcnh9xcmr6upd.public.blob.vercel-storage.com/elani-catalog.pdf",
-      "statusCode": 307
+      "statusCode": 308
     }
   ]
 }
